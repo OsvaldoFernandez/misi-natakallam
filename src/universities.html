@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NaTakallam</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="/css/base.css" rel="stylesheet">
+    <link href="/css/guidelines.css" rel="stylesheet">
+    <link rel="icon" href="/assets/favicon-96b56e6ff1.ico" type="image/x-icon">
+  </head>
+  <body class="column services">
+    <header class="header">
+      <div class="container row space-between middle"><a href="/"><img class="logo" src="assets/ic_navbar_logo-4a93e6e7fe.png" alt="logo"></a>
+        <nav class="nav row middle"><a class="button-3 sm dove-grey m-right-5" href="https://app.natakallam.com/login">Login</a><a class="button-3 sm m-right-10" href="https://app.natakallam.com/sign-up">Sign up</a>
+          <button class="menu-container js-menu-button"><i class="hamburguer"></i></button>
+        </nav>
+      </div>
+    </header>
+    <div class="menu column end js-menu">
+      <button class="close-menu m-bottom-9 js-close-menu-button"><img src="assets/ic_menu_close-64d4430419.svg" alt="close"></button>
+      <div class="menu-items column end" id="menuCollapse">
+        <button class="text-6 m-bottom-2 menu-item collapsed" onclick="location.href=&quot;/&quot;">Home</button>
+        <button class="text-6 m-bottom-2 menu-item collapsed" onclick="location.href=&quot;/services.html&quot;">Language learning</button>
+        <button class="text-6 m-bottom-2 menu-item collapsed" type="button" data-toggle="collapse" data-target="#academinPrograms" aria-expanded="false" aria-controls="academinPrograms">Academic Programing</button>
+        <div class="collapse submenu" id="academinPrograms">
+          <button class="text-6 m-bottom-2 subitem" onclick="location.href=&quot;/schools.html&quot;">Schools</button><br>
+          <button class="text-6 m-bottom-2 subitem" onclick="location.href=&quot;/universities.html&quot;">Universities</button>
+        </div>
+        <button class="text-6 m-bottom-2 menu-item collapsed" onclick="location.href=&quot;/translation.html&quot;">Translation Services</button>
+        <button class="text-6 m-bottom-2 menu-item collapsed" onclick="location.href=&quot;/shop.html&quot;">Shop</button>
+        <button class="text-6 menu-item collapsed" onclick="location.href=&quot;/about.html&quot;">About</button>
+      </div>
+    </div>
+    <div class="social-wrapper start column js-social hide-sm"><a class="social-item m-bottom-2" href="https://www.facebook.com/natakallam2015"><img src="assets/ic_facebook-671669bfdf.svg" alt="facebook"></a><a class="social-item m-bottom-2" href="https://twitter.com/NaTakallam"><img src="assets/ic_twitter-7a01c679e1.svg" alt="twitter"></a><a class="social-item" href="https://www.instagram.com/natakallam/"><img src="assets/ic_instagram-52a9ee1eb0.svg" alt="instagram"></a></div>
+    <div class="secondary-container">
+      <div class="row centered main-secondary inverted">
+        <div class="col-md-6 image-container"> <img class="img" src="assets/universities/title-5cbfebbc1e.jpg" alt="services"></div>
+        <div class="col-md-6 pad-2">
+          <h1 class="description-title title-2 m-bottom-8 m-top-3">NaTakallam on campus</h1>
+        </div>
+      </div>
+      <div class="row secondary bone">
+        <div class="col-md-12">
+          <p class="text-3 description-paragraph centered">NaTakallam is proud to have been a classroom experience in over a dozen schools, including</p>
+        </div>
+        <div class="col-md-2 m-top-2"><a href="https://www.nyu.edu/"><img class="partner" src="assets/universities/u1-9fa46d9901.jpg" alt="services"></a></div>
+        <div class="col-md-2 m-top-2"><a href="https://www.tufts.edu/"><img class="partner" src="assets/universities/u2-a918409f48.png" alt="services"></a></div>
+        <div class="col-md-2 m-top-2"><a href="https://www.davidson.edu/"><img class="partner" src="assets/universities/u3-25ae2ec454.jpg" alt="services"></a></div>
+        <div class="col-md-2 m-top-2"><a href="https://www.gwu.edu/"><img class="partner" src="assets/universities/u4-2cc29db7d3.jpg" alt="services"></a></div>
+        <div class="col-md-2 m-top-2"><a href="https://www.bc.edu/"><img class="partner" src="assets/universities/u5-3713f96b4d.png" alt="services"></a></div>
+        <div class="col-md-2 m-top-2"><a href="https://www.northeastern.edu/"><img class="partner" src="assets/universities/u6-857285799e.png" alt="services"></a></div>
+        <div class="col-md-2 m-top-2"><a href="http://www.rollins.edu/"><img class="partner" src="assets/universities/u7-a366d2cc3b.png" alt="services"></a></div>
+        <div class="col-md-2 m-top-2"><a href="https://www.francis.edu/"><img class="partner" src="assets/universities/u8-4698814bc7.png" alt="services"></a></div>
+        <div class="col-md-2 m-top-2"><a href="http://www.emory.edu/home/index.html"><img class="partner" src="assets/universities/u9-7da9f2c1a2.gif" alt="services"></a></div>
+        <div class="col-md-2 m-top-2"><a href="https://www.swarthmore.edu/"><img class="partner" src="assets/universities/u10-eb1f42c4fd.jpeg" alt="services"></a></div>
+        <div class="col-md-2 m-top-2"><a href="https://www.guilford.edu/"><img class="partner" src="assets/universities/u11-9f63ed9b53.jpg" alt="services"></a></div>
+        <div class="col-md-2 m-top-2"><a href="https://www.columbia.edu/"><img class="partner" src="assets/universities/u12-4a23d76b43.jpg" alt="services"></a></div>
+      </div>
+      <div class="row secondary">
+        <div class="col-md-12">
+          <p class="text-3 centered m-top-3">Our English cross-cultural exchange sessions allow students to delve deeper into courses on anthropology, international relations, journalism, history, political science, refugee studies and more by learning directly from a local’s personal experience.</p>
+          <p class="text-3 centered m-top-3">Arabic conversation sessions inspire students to tackle their language studies with a new vigor by giving them a connection to the region and joining them in our social impact mission. In order to learn a language you have to speak it, but with all the time needed to cover Arabic grammar there’s often little room left for conversation practice in the classroom. NaTakallam sessions help students meet this need by solidifying concepts learned in class and improving pronunciation, listening skills, and vocabulary retention.</p>
+          <p class="text-3 centered m-top-3">NaTakallam helps students develop their understanding of the world in which the language or themes they are studying live. Conversation partners are teachers, tutors, and often become friends that breakdown barriers defined by the media and the political sphere.</p>
+          <p class="text-3 centered m-top-3">You can help us leverage our social impact by joining our network of university partners in a way that complements your individual goals and curricula. To date we’ve partnered with over a dozen schools in various capacities.</p>
+          <p class="text-3 centered m-top-3 bold">To learn more and engage your students with NaTakallam, please contact: universities@natakallam.com</p>
+        </div>
+      </div>
+      <section class="section js-universities-carousel bone">
+        <article>
+          <p class="text-3">"We hosted Natakallam for an Arabic-only conversational event featuring two instructors via Skype. The Natakallam team handled everything flawlessly, and the two instructors spoke with students in our master's program about their experiences as refugees.  They explained what it was like to find an organization like Natakallam that would support them in a professional capacity in their exile from Syria.  They shared stories about the relationships they have built with their Arabic students, and described some of the challenges they face in their new contexts.  It was such a wonderful opportunity for our students to connect with real people as a way of dispelling stereotypes and adding a personal, multi-dimensional view of daily life as a refugee.  It also felt really good to be contributing to an organization that helps support professionals at a moment when they otherwise might not have access to employment."</p>
+          <p class="text-3 bold m-top-2"> - Greta Scharnweber, Associate Director, Hagop Kevorkian Center for Near Eastern Studies, New York University</p>
+        </article>
+        <article>
+          <p class="text-3">"“Our 18 students in Duke University’s “Refugee Lives” class appreciated the well-designed NaTakallam platform, ease of scheduling and communication, and excellence of the individual conversation partners. NaTakallam was flexible in understanding our pedagogical needs and innovative in creating pathways for student learning. Our students benefited tremendously from their contact with the conversation partners!”</p>
+          <p class="text-3 bold m-top-2">- Nancy Kalow, Professor, Duke University, Center for Documentary Studies</p>
+        </article>
+        <article>
+          <p class="text-3">"What happens when twenty Emory University undergraduates and ten university-aged refugees living across four continents spend one semester working together to learn about and create sustainable solutions to our global migrant and refugee crisis? Our partnership with NaTakallam allowed us to explore that very question, and it gave all of us involved a learning experience that we will never forget. Skyping in for group discussions and meeting one-on-one with students to help them develop their own social impact projects and public awareness campaigns over the course of the semester, our NaTakallam partners were professional, engaged, and passionate about the work at hand. They added a depth of understanding about the challenges facing those who have been displaced that one simply can't gain from a textbook, and our partnership with them revolutionized the way that migration can be studied!"</p>
+          <p class="text-3 bold m-top-2">- Dr. Isabella Alexander, Professor of Anthropology at Emory University</p>
+        </article>
+        <article>
+          <p class="text-3">"NaTakallam added an invaluable linguistic and cultural dimension to my fall 2017 advanced Arabic content course: Gender and Sexuality in Syrian Television Drama. My students had weekly NaTakallam conversations over Skype and discussed the mini-series being viewed in class with their Syrian conversation partners: Shadi, Muna, and Zain. They've forged friendships, and three of my students will be meeting with their conversation partners in person in Beirut during their spring semester abroad.  I look forward to working again with NaTakallam, who's staff went out of their way to meet my class and students' needs over the semester."</p>
+          <p class="text-3 bold m-top-2">- Rebecca Joubin, Associate Professor of Arab Studies, Arab Studies Department, Davidson</p>
+        </article>
+        <article>
+          <p class="text-3">"I would love to use NaTakallam in the future. I am so grateful for the work you do. My students have been profoundly changed by this experience."</p>
+          <p class="text-3 bold m-top-2">- Roxana Cazan, Assistant Professor of English, St. Francis College, PA</p>
+        </article>
+        <article>
+          <p class="text-3">"“I think these conversations were great for my students.  They all wrote reflection papers about their interactions, and many of them said it was the first time they had ever spoken with a refugee.  We had a discussion about it in class, and it was helpful to see the range of experiences that came out of Syria -- the diversity in terms of professional background, current location, travel routes, etc. I'll definitely tell others on campus about my positive experience, and hope that other courses will use your service.”</p>
+          <p class="text-3 bold m-top-2"> - Dan Chong, Professor of Political Science, Rollins University </p>
+        </article>
+      </section>
+      <footer class="footer row">
+        <div class="container row space-between middle">
+          <div class="row column-sm m-bottom-4-sm">
+            <div class="column m-right-10 m-bottom-4-sm"><span class="text-5 m-bottom-1">Get involved</span><a class="button-3 underline" href="https://app.natakallam.com">find out more</a></div>
+            <div class="column"><span class="text-5 m-bottom-1">Contact us</span><a class="button-3 underline" href="">info@natakallam.com</a></div>
+          </div>
+          <div class="footer-social column"><span class="text-5 m-bottom-1">Follow us</span>
+            <div class="row"><a class="social-item m-right-2" href="https://www.facebook.com/natakallam2015"><img src="assets/ic_facebook-671669bfdf.svg" alt="facebook"></a><a class="social-item m-right-2" href="https://twitter.com/NaTakallam"><img src="assets/ic_twitter-7a01c679e1.svg" alt="twitter"></a><a class="social-item" href="https://www.instagram.com/natakallam/"><img src="assets/ic_instagram-52a9ee1eb0.svg" alt="instagram"></a></div>
+          </div>
+        </div>
+      </footer>
+      <!-- inject:js-->
+      <script src="/js/all.js"></script>
+      <!-- endinject-->
+    </div>
+  </body>
+</html>

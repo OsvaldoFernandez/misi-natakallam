@@ -1,0 +1,55 @@
+{
+  "name": "misi",
+  "version": "1.0.0",
+  "description": " Sistemas inteligentes (AGI) para la construcción y mejora de GUIs.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsvaldoFernandez/misi.git"
+  },
+  "keywords": [
+    "IGA",
+    "GUI",
+    "UX"
+  ],
+  "author": "Osvaldo Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OsvaldoFernandez/misi/issues"
+  },
+  "homepage": "https://github.com/OsvaldoFernandez/misi#readme",
+  "dependencies": {
+    "@babel/register": "^7.8.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.26.7",
+    "concurrent-transform": "^1.0.0",
+    "del": "^2.2.0",
+    "fsevents": "1.2.9",
+    "gulp": "^3.9.0",
+    "gulp-awspublish": "^4.1.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-cloudfront-invalidate-aws-publish": "^1.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-if": "^3.0.0",
+    "gulp-sass": "^4.0.2",
+    "http-server": "^0.12.1",
+    "merge-stream": "^2.0.0",
+    "node-notifier": "^6.0.0",
+    "require-dir": "^1.2.0",
+    "run-sequence": "^2.2.1",
+    "webpack": "^4.41.0",
+    "yargs": "^6.6.0",
+    "minimist": ">=0.2.1",
+    "lodash.template": ">=4.5.0"
+  },
+  "devDependencies": {
+    "gulp-preprocess": "^3.0.3"
+  }
+}
