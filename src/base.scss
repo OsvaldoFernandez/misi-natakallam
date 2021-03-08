@@ -304,11 +304,42 @@ body {
 }
 
 .map-wrapper {
-	position: relative
+	position: relative;
+
+	&.overlapped {
+		height: 600px;
+		width: 800px;
+		position: relative;
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
 }
 
 .map {
-	width: 100%
+	width: 100%;
+
+	&.map-1 {
+		-webkit-filter: opacity(.5) drop-shadow(0 0 0 #D25A5A);
+		filter: opacity(.5) drop-shadow(0 0 0 #D25A5A);
+	}
+	&.map-2 {
+		-webkit-filter: opacity(.5) drop-shadow(0 0 0 #F2EBE2);
+		filter: opacity(.5) drop-shadow(0 0 0 #F2EBE2);
+	}
+	&.map-3 {
+		-webkit-filter: opacity(.5) drop-shadow(0 0 0 #44986E);
+		filter: opacity(.5) drop-shadow(0 0 0 #44986E);
+	}
+
+	&.blender {
+		background: #000;
+		mix-blend-mode: overlay;
+		height: inherit;
+
+	}
 }
 
 .map-references {
@@ -329,7 +360,11 @@ body {
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	height: 500px
+	height: 500px;
+
+	img {
+		height: inherit;
+	}
 }
 
 .video-trigger {
@@ -457,7 +492,7 @@ body {
 		text-align: center;
 
 		li>button:before {
-			color: #781B1B;
+			color: #D25A5A;
 		}
 	}
 }
