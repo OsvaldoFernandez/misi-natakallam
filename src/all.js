@@ -35,8 +35,8 @@ var settings = function(e, s) {
         appendDots: $(s)
     }
 };
-mainCarousel.slick(settings(3e3, ".main-section")),
-testimonialsCarousel.slick(settings(1e4, ".testimonials-section")),
+mainCarousel.slick(settings(3e5, ".section-1")),
+testimonialsCarousel.slick(settings(3e5, ".testimonials-section")),
 universitiesCarousel.slick(settings(1e4, ".universities-section")),
 $window.on("scroll", function() {
     $(this).scrollTop() > windowHeight ? (social.removeClass("start"),

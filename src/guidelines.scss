@@ -585,6 +585,10 @@ li {
 	min-width: 0
 }
 
+.section-1 {
+	position: relative;
+}
+
 @media screen and (max-width: 1200px) {
 	.column-sm {
 		display: -ms-flexbox;

@@ -1,0 +1,247 @@
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.float-none {
+  float: none !important; // sass-lint:disable-line no-important
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center-vert {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.no-shrink {
+  flex-shrink: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.white-space-no-wrap {
+  white-space: nowrap;
+}
+
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.horizontal-scroll {
+  overflow-x: scroll;
+}
+
+.vertical-scroll {
+  overflow-y: scroll;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.text-with-newlines {
+  white-space: pre-line;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-bottom {
+  vertical-align: bottom !important; // sass-lint:disable-line no-important
+}
+
+.align-center {
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+@for $i from 0 through 50 {
+  .width-#{$i}0px {
+    width: 10px * $i;
+  }
+
+  .height-#{$i}0px {
+    height: 10px * $i;
+  }
+
+  .max-height-#{$i}0px {
+    max-height: 10px * $i;
+  }
+}
+
+@for $i from 0 through 15 {
+  .min-width-#{$i}0px {
+    min-width: 10px * $i;
+  }
+}
+
+
+@for $i from 8 through 25 {
+  .font-size-#{$i}px {
+    font-size: 1px * $i;
+  }
+}
+
+@for $i from 8 through 25 {
+  .line-height-#{$i}px {
+    line-height: 1px * $i;
+  }
+}
+
+$elem-sizes: 0, 50px, 100px, 150px, 200px, 250px, 300px, 350px, 400px, 450px, 500px;
+
+@each $elem-size in $elem-sizes {
+  .width-#{$elem-size} {
+    width: $elem-size;
+  }
+}
+
+.break-spaces {
+  white-space: break-spaces;
+}
+
+
+$sizes: 0, 5px, 10px, 15px, 20px, 25px, 30px, 35px, 40px, 45px, 50px, 55px, 60px, 65px;
+
+@each $size in $sizes {
+  .padding-#{$size} {
+    padding: $size !important; // sass-lint:disable-line no-important
+  }
+
+  .padding-top-#{$size} {
+    padding-top: $size;
+  }
+
+  .padding-bottom-#{$size} {
+    padding-top: $size;
+  }
+
+  .padding-right-#{$size} {
+    padding-right: $size;
+  }
+
+  .padding-vert-#{$size} {
+    padding-bottom: $size !important; // sass-lint:disable-line no-important
+    padding-top: $size !important; // sass-lint:disable-line no-important
+  }
+
+  .padding-sides-#{$size} {
+    padding-left: $size;
+    padding-right: $size;
+  }
+
+  .margin-#{$size} {
+    margin: $size !important; // sass-lint:disable-line no-important
+  }
+
+  .margin-left-#{$size} {
+    margin-left: $size !important; // sass-lint:disable-line no-important
+  }
+
+  .margin-top-#{$size} {
+    margin-top: $size !important; // sass-lint:disable-line no-important
+  }
+
+  .margin-bottom-#{$size} {
+    margin-bottom: $size !important; // sass-lint:disable-line no-important
+  }
+
+  .margin-right-#{$size} {
+    margin-right: $size !important; // sass-lint:disable-line no-important
+  }
+
+  .margin-vert-#{$size} {
+    margin-bottom: $size !important; // sass-lint:disable-line no-important
+    margin-top: $size !important; // sass-lint:disable-line no-important
+  }
+
+  .margin-sides-#{$size} {
+    margin-left: $size !important; // sass-lint:disable-line no-important
+    margin-right: $size !important; // sass-lint:disable-line no-important
+  }
+}
+
+.blurred {
+  filter: blur(7px);
+  overflow: hidden;
+}
+
+.no-border {
+  border: 0;
+}
+
+.translucid-50 {
+  opacity: 0.5;
+}
