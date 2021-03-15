@@ -35,15 +35,23 @@ var settings = function(e, s) {
         appendDots: $(s)
     }
 };
-mainCarousel.slick(settings(3e5, ".section-1")),
-testimonialsCarousel.slick(settings(3e5, ".testimonials-section")),
-universitiesCarousel.slick(settings(1e4, ".universities-section")),
-$window.on("scroll", function() {
-    $(this).scrollTop() > windowHeight ? (social.removeClass("start"),
-    header.addClass("minimal")) : (social.addClass("start"),
-    header.removeClass("minimal")),
-    endHeight = $(document).height() - windowHeight - $(".footer").outerHeight(),
-    $(this).scrollTop() > endHeight ? social.addClass("end") : social.removeClass("end")
-}).on("resize", function() {
-    windowHeight = $(this).height()
-});
+
+const initCarousels = () => {
+
+  setTimeout(function(){
+    mainCarousel.slick(settings(3e5, ".section-1")),
+    testimonialsCarousel.slick(settings(3e5, ".testimonials-section"));
+    universitiesCarousel.slick(settings(1e4, ".universities-section"));
+  }, 2000);
+
+  $window.on("scroll", function() {
+      $(this).scrollTop() > windowHeight ? (social.removeClass("start"),
+      header.addClass("minimal")) : (social.addClass("start"),
+      header.removeClass("minimal")),
+      endHeight = $(document).height() - windowHeight - $(".footer").outerHeight(),
+      $(this).scrollTop() > endHeight ? social.addClass("end") : social.removeClass("end")
+  }).on("resize", function() {
+      windowHeight = $(this).height()
+  });
+
+}
