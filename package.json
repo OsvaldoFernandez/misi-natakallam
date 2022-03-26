@@ -46,7 +46,7 @@
     "run-sequence": "^2.2.1",
     "webpack": "^4.41.0",
     "yargs": "^6.6.0",
-    "minimist": ">=0.2.1",
+    "minimist": ">=1.2.6",
     "lodash.template": ">=4.5.0"
   },
   "devDependencies": {
