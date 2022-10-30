@@ -28,7 +28,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-es2015": "^6.3.13",
     "babel-register": "^6.26.0",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "concurrent-transform": "^1.0.0",
     "del": "^2.2.0",
     "fsevents": "1.2.9",
