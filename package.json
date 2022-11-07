@@ -32,7 +32,7 @@
     "concurrent-transform": "^1.0.0",
     "del": "^2.2.0",
     "fsevents": "1.2.9",
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.2",
     "gulp-awspublish": "^4.1.1",
     "gulp-cached": "^1.1.1",
     "gulp-cloudfront-invalidate-aws-publish": "^1.0.0",
